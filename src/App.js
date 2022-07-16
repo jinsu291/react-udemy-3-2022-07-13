@@ -1,12 +1,12 @@
 import React from 'react';
 
+import AddUser from './components/Users/AddUser';
+
 
 function App() {
-  console.log(123)
   return (
     <div>
-      <h2>Let's get started!
-      </h2>
+      <AddUser />
     </div>
   );
 };
